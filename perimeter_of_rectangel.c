@@ -1,6 +1,7 @@
- #include <stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     float L, B;
 
     printf("Enter Length :");
@@ -9,6 +10,6 @@ int main(){
     printf("Enter Breadth :");
     scanf("%f", &B);
 
-    printf("Perimeter of rectangle is : %f ", L+B);
+    printf("Perimeter of rectangle is : %f ", L + B);
     return 0;
 }

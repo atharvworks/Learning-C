@@ -6,8 +6,6 @@ int main()
     int c = 6;
     int d = 2;
 
-    printf("answer is : %d", 4*3/6*2);
+    printf("answer is : %d", 4 * 3 / 6 * 2);
     return 0;
-
-
 }

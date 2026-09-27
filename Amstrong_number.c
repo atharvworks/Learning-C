@@ -6,7 +6,8 @@ add them */
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main()
+{
     int a, b, c, d, n = 0, r = 0;
 
     printf("Enter Number : \n");
@@ -15,7 +16,8 @@ int main() {
     b = a;
 
     // Count number of digits
-    while (b != 0) {
+    while (b != 0)
+    {
         b /= 10;
         ++n;
     }
@@ -24,15 +26,19 @@ int main() {
     b = a;
 
     // Calculate sum of powers
-    while (b != 0) {
+    while (b != 0)
+    {
         c = b % 10;
         r += pow(c, n);
         b /= 10;
     }
 
-    if (a == r) {
+    if (a == r)
+    {
         printf("This number is an Armstrong number");
-    } else {
+    }
+    else
+    {
         printf("This number is not an Armstrong number");
     }
 

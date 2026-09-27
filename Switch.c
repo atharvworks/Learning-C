@@ -1,4 +1,4 @@
-// below code is for numbers. we can use chars instead of numbers or any other data type instead of int. 
+// below code is for numbers. we can use chars instead of numbers or any other data type instead of int.
 
 /*
 #include <stdio.h>
@@ -38,7 +38,7 @@ int main()
 }
     */
 
-// This code is for char    
+// This code is for char
 
 #include <stdio.h>
 

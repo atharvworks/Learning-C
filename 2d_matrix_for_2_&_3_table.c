@@ -96,3 +96,5 @@ void table3 (int t[1][], int n){
         printf("%d \t", t[1][i]);
     }
 }*/
+
+//Atharv

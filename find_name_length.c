@@ -24,5 +24,5 @@ int charlen(char name[])
         }
     }
 
-    return n -= m;
+    return n = n - m - 1; // will count null character at last
 }

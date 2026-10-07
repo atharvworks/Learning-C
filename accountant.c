@@ -38,7 +38,7 @@ int main()
     printf("3. Display Account\n");
     printf("4. Search Account\n");
     printf("5. Exit\n");
-    scanf("%d", choice);
+    scanf("%d", &choice);
     functions(arr, n, choice);
     return 0;
 }
@@ -61,6 +61,8 @@ void input(struct account arr[], int n)
 void functions(struct account arr[], int n, int choice)
 {
     int a;
+    int m = 0;
+    float k = 0;
 
     if (choice == 1)
     {
@@ -68,8 +70,18 @@ void functions(struct account arr[], int n, int choice)
         printf("Enter account number: ");
         scanf("%d", &a);
 
-        for (int i = 0; arr[i].accountno == a; i++)
+        for (int i = 0; i < n; i++)
         {
+            if (arr[i].accountno == a)
+            {
+                m = i;
+                break;
+            }
         }
+
+        printf("\n Enter the amount to deposit : ");
+        scanf("%f", &k);
+
+        arr[m].amount += k;
     }
 }

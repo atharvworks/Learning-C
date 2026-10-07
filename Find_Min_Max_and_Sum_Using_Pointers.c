@@ -58,7 +58,7 @@ void max(int *ptr, int n)
     {
         if (*(ptr + i) > big)
         {
-            big = (*ptr + i);
+            big = (*(ptr + i));
         }
         else
         {
